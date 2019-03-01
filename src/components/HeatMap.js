@@ -15,7 +15,9 @@ export default function HeatMap(props) {
                 points={addressPoints}
                 longitudeExtractor={m => m[1]}
                 latitudeExtractor={m => m[0]}
-                intensityExtractor={m => parseFloat(m[2])} />
+                intensityExtractor={m => parseFloat(m[2])}
+                max={1.5}
+            />
             <TileLayer
                 url="http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
                 attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"

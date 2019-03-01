@@ -4,6 +4,7 @@
 This demo instantiates a Leaflet Map with a Tile Layer, then loads a JSON layer. 
 It implements `HeatmaLayer.js` to heatmap layer in the map.
 
+![](assets/heatmap.png) 
 
 ## Install:
 Make sure you have Node.JS @5.9.1 or greater installed globally.
